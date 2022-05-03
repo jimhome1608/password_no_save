@@ -1,0 +1,34 @@
+<div>
+      <br>
+      <!--
+      <div>
+        <label for="pass2">Password ( type="password"):</label>
+        <input id="pass2"  type="password"  minlength="8" required [(ngModel)]="userPassword" >
+      </div>
+      <br>
+      <button (click)="check_password()">Login</button>
+      <br>
+      -->
+      <br>
+      <div>
+          <label for="pass">Password (type="text"):</label>
+          <input id="pass"  type="text" style="-webkit-text-security: square;" minlength="8" required [(ngModel)]="userPassword2" >
+      </div>
+      <br>
+      <button (click)="check_password2()">Login</button>
+      <br>
+      <br>
+      Key Pad
+      <br>
+      <button (click)="keypad_button_click('1')">1</button>
+      <button (click)="keypad_button_click('2')">2</button>
+      <button (click)="keypad_button_click('3')">3</button>
+      <button (click)="keypad_button_click('4')">4</button>
+      <br>
+      <button (click)="keypad_button_click('C')">Clear</button>
+      <br>
+      <button (click)="keypad_button_click('L')">Keypad Login</button>
+      <br>
+      <br>
+      <br>
+</div>
